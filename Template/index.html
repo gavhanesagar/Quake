@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Responsive Admin &amp; Dashboard Template based on Bootstrap 5">
+	<meta name="keywords" content="adminkit, bootstrap, bootstrap 5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<!-- <link rel="shortcut icon" href="img/icons/icon-48x48.png" /> -->
+
+	<link rel="canonical" href="https://demo-basic.adminkit.io/" />
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script> -->
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<title>Sat2farm</title>
+
+	<link href="css/app.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+	<style>
+		.accordion-button:focus {
+			box-shadow: none;
+		}
+
+		.accordion-body {
+			border-radius: 10px;
+		}
+
+		.accordion-button:not(.collapsed)::after {
+			background-image: url("https://cdn-icons-png.flaticon.com/512/57/57055.png");
+			transform: rotate(-180deg);
+			filter: invert(1);
+		}
+
+		.accordion-button::after {
+			background-image: url("https://cdn-icons-png.flaticon.com/512/57/57055.png");
+			filter: invert(1);
+		}
+		
+	</style>
+</head>
+
+<body>
+	<div class="wrapper">
+		
+
+		<div class="main">
+			
+			<nav class="navbar navbar-expand-lg navbar-dark bg-custom" style="padding:0;background-color: #01345B;">
+				<div class="container-fluid">
+					<a href="#" class="navbar-brand">
+						<img src="https://satyukt.com/web/assets/img/logoHD.png" height="40px" alt="Sat2farm">
+					</a>
+					<button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+						<span class="navbar-toggler-icon" style="color: white;opacity: 1;"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarCollapse">
+						<div class="navbar-nav ms-auto">
+							<form class="d-flex">
+								
+								<input class="form-control me-2 icon" type="text" placeholder="What you are looking for today?" style="border-radius: 20px;width: 346px;height: 38px;">
+								
+								<!-- <button class="btn btn-primary" type="button">Search</button> -->
+							</form>
+						</div>
+						<div class="navbar-nav ms-auto">
+							<a href="#" class="nav-item nav-link"><i class="bi bi-cart-fill"></i></a>
+							<a href="#" class="nav-item nav-link"><i class="bi bi-bell-fill"></i></a>
+							<a href="#" class="nav-item nav-link"><i class="bi bi-person-circle"></i></a>
+		
+						</div>
+					</div>
+				</div>
+			</nav>
+
+			<main class="content p-0 mt-2">
+				<div class="container-fluid pt-3 m-0">
+
+					
+					
+					<div class="topnav" style="margin-bottom: 25px;">
+						<a class="active" href="#">Farmers</a>
+						<a href="#">My Farms</a>
+						<a href="#">Communities</a>
+						<a href="#">Market</a>
+					</div>
+                    <div class="accordion" id="faqlist">
+						<div class="accordion-item my-3 shadow">
+							<h2 class="accordion-header">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#content-accordion-6" style="background-color: #01A560;color: white;font-weight: 600;font-size: 18px;">Add New&nbsp;<i class="bi bi-plus-lg"></i></button>
+							</h2>
+							<div id="content-accordion-6" class="accordion-collapse collapse show" data-bs-parent="#faqlist">
+								<div class="accordion-body row">
+									<div class="container pl-5 pt-4 pb-0">
+										<div class="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-lg-4 g-3">
+											<div class="col">
+												<div class="card shadow-sm">
+													<div class="text-center">
+										   
+								
+														<div class="img-hover-zoom img-hover-zoom--colorize">
+															<div class="centered">Farm</div>
+															<img class="shadow" src="https://images.pexels.com/photos/259280/pexels-photo-259280.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=650"
+																alt="Another Image zoom-on-hover effect">
+														</div>
+								
+													</div>
+										   
+													
+												</div>
+											</div>
+											<div class="col">
+												<div class="card shadow-sm">
+													<div class="text-center">
+											   
+								
+														<div class="img-hover-zoom img-hover-zoom--colorize">
+															<div class="centered">Poly House</div>
+															<img class="shadow" src="https://images.pexels.com/photos/2423412/pexels-photo-2423412.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=650"
+																alt="Another Image zoom-on-hover effect">
+														</div>
+								
+													</div>
+											   
+													
+												</div>
+											</div>
+											<div class="col">
+												<div class="card shadow-sm">
+													<div class="text-center">
+												 
+								
+														<div class="img-hover-zoom img-hover-zoom--colorize">
+															<div class="centered">Water Body</div>
+															<img class="shadow" src="https://images.pexels.com/photos/990016/pexels-photo-990016.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+																alt="Another Image zoom-on-hover effect">
+														</div>
+								
+													</div>
+											   
+													
+												</div>
+											</div>
+											<div class="col">
+												<div class="card shadow-sm">
+													<div class="text-center">
+												   
+								
+														<div class="img-hover-zoom img-hover-zoom--colorize">
+															<div class="centered">Terrace Garden</div>
+															<img class="shadow" src="https://images.pexels.com/photos/2518861/pexels-photo-2518861.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+																alt="Another Image zoom-on-hover effect">
+														</div>
+								
+													</div>
+												 
+													
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					
+					</div>
+					
+					
+					
+
+					<div class="row">
+						<div class="col-md-4 grid-margin stretch-card">
+						    <div class="card-header">
+
+								<h5 class="card-title mb-0">My Farm</h5>
+							</div>
+                            <div class="Farm-list">
+								<div class="card">
+									<div class="row g-0">
+										<div class="col-sm-5 p-3" style="background: none;border-radius: 10px;">
+											<img src="https://images.pexels.com/photos/1483880/pexels-photo-1483880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+												class="card-img h-100" alt="">
+										</div>
+										<div class="col-sm-7">
+											<div class="card-body pt-2 mt-0">
+												<p class="card-text float-end"><i class="bi bi-pencil-square"></i></p>
+												<p class="card-text float-end"><i class="bi bi-trash-fill"></i></p>
+												<p class="card-title">Farm abc (Opean Farm)</p>
+												<p class="card-text">Crop Type: Paddy Field</p>
+												<p class="card-text float-end">17 Jan 2021</p>
+												<div class="mb-0">
+													<span class="text-danger"> <i class="mdi mdi-arrow-bottom-right"></i> -3.65% </span>
+													<span class="text-muted"><i class="bi bi-pencil-square"></i></span>
+												</div>
+
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="card">
+									<div class="row g-0">
+										<div class="col-sm-5 p-3 pe-1" style="background: none;border-radius: 10px;">
+											<img src="https://images.pexels.com/photos/1483880/pexels-photo-1483880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+												class="card-img h-100" alt="">
+										</div>
+										<div class="col-sm-7">
+											<div class="card-body pt-3 mt-0">
+												<p class="card-text float-end"><i class="bi bi-pencil-square"></i></p>
+												<p class="card-text float-end"><i class="bi bi-trash-fill"></i></p>
+												<p class="card-title">Farm abc (Opean Farm)</p>
+												<p class="card-text">Crop Type: Paddy Field</p>
+												<!-- <p class="card-text float-end mt-0">17 Jan 2021</p><br> -->
+												<!-- <p class="card-text float-end mt-0">48 Days till today</p> -->
+												<!-- <div class="pt-2 d-block">
+													<span class="text">Crop should be XYZ</span><br>
+													<span class="text">Weather is sunny. Row your harvest.</span>
+												</div> -->
+												<p class="float0-end">2 Acre</p>
+
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+						<div class="col-md-8 grid-margin stretch-card">
+							<div class="card-header">
+
+								<h5 class="card-title mb-0">My Farm</h5>
+							</div>
+							<div class="card-body d-flex p-0">
+								<div class="align-self-center w-100">
+									<div class="chart">
+										<img src="../static/img/photos/loginScreen.jpg" height="375px" width="100%" style="border-radius: 10px;">
+									</div>
+								</div>
+							</div>
+							<div class="accordion" id="faqlist"> 
+								<div class="accordion-item my-3 shadow">
+									<h2 class="accordion-header">
+										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#content-accordion-1">Weather</button>
+									</h2>
+									<div id="content-accordion-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+										<div class="accordion-body">
+											Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+										</div>
+									</div>
+								</div>
+								<div class="accordion-item my-3 shadow">
+									<h2 class="accordion-header"> 
+										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#content-accordion-2">Pest and Disease</button>
+									</h2>
+									<div id="content-accordion-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+										<div class="accordion-body">
+											Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+										</div>
+									</div>
+								</div>
+							
+								<div class="accordion-item my-3 shadow">
+									<h2 class="accordion-header">
+										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#content-accordion-3">Weather</button>
+									</h2>
+									<div id="content-accordion-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+										<div class="accordion-body">
+											It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here.
+										</div>
+									</div>
+								</div>
+							
+								<div class="accordion-item my-3 shadow">
+									<h2 class="accordion-header">
+										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#content-accordion-4">SM</button>
+									</h2>
+									<div id="content-accordion-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+										<div class="accordion-body">
+											Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+										</div>
+									</div>
+								</div>
+								<div class="accordion-item my-3 shadow">
+									<h2 class="accordion-header">
+										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#content-accordion-5">NDVI</button>
+									</h2>
+									<div id="content-accordion-5" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+										<div class="accordion-body">
+											Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+										</div>
+									</div>
+								</div>
+							
+							</div>
+						</div>
+					  </div>
+
+					
+
+				</div>
+			</main>
+
+			<footer class="footer">
+				<div class="container-fluid">
+					<div class="row text-muted">
+						<div class="col-6 text-start">
+							<p class="mb-0">
+								<a class="text-muted" href="https://adminkit.io/" target="_blank"><strong>Satyukt Analytics</strong></a> &copy;
+							</p>
+						</div>
+							<!-- <div class="col-6 text-end">
+								<ul class="list-inline">
+									<li class="list-inline-item">
+										<a class="text-muted" href="https://adminkit.io/" target="_blank">Support</a>
+									</li>
+									<li class="list-inline-item">
+										<a class="text-muted" href="https://adminkit.io/" target="_blank">Help Center</a>
+									</li>
+									<li class="list-inline-item">
+										<a class="text-muted" href="https://adminkit.io/" target="_blank">Privacy</a>
+									</li>
+									<li class="list-inline-item">
+										<a class="text-muted" href="https://adminkit.io/" target="_blank">Terms</a>
+									</li>
+								</ul>
+							</div> -->
+					</div>
+				</div>
+			</footer>
+		</div>
+	</div>
+
+	<script src="js/app.js"></script>
+
+	<script>
+		document.addEventListener("DOMContentLoaded", function() {
+			var ctx = document.getElementById("chartjs-dashboard-line").getContext("2d");
+			var gradient = ctx.createLinearGradient(0, 0, 0, 225);
+			gradient.addColorStop(0, "rgba(215, 227, 244, 1)");
+			gradient.addColorStop(1, "rgba(215, 227, 244, 0)");
+			// Line chart
+			new Chart(document.getElementById("chartjs-dashboard-line"), {
+				type: "line",
+				data: {
+					labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+					datasets: [{
+						label: "Sales ($)",
+						fill: true,
+						backgroundColor: gradient,
+						borderColor: window.theme.primary,
+						data: [
+							2115,
+							1562,
+							1584,
+							1892,
+							1587,
+							1923,
+							2566,
+							2448,
+							2805,
+							3438,
+							2917,
+							3327
+						]
+					}]
+				},
+				options: {
+					maintainAspectRatio: false,
+					legend: {
+						display: false
+					},
+					tooltips: {
+						intersect: false
+					},
+					hover: {
+						intersect: true
+					},
+					plugins: {
+						filler: {
+							propagate: false
+						}
+					},
+					scales: {
+						xAxes: [{
+							reverse: true,
+							gridLines: {
+								color: "rgba(0,0,0,0.0)"
+							}
+						}],
+						yAxes: [{
+							ticks: {
+								stepSize: 1000
+							},
+							display: true,
+							borderDash: [3, 3],
+							gridLines: {
+								color: "rgba(0,0,0,0.0)"
+							}
+						}]
+					}
+				}
+			});
+		});
+	</script>
+	<script>
+		document.addEventListener("DOMContentLoaded", function() {
+			// Pie chart
+			new Chart(document.getElementById("chartjs-dashboard-pie"), {
+				type: "pie",
+				data: {
+					labels: ["Chrome", "Firefox", "IE"],
+					datasets: [{
+						data: [4306, 3801, 1689],
+						backgroundColor: [
+							window.theme.primary,
+							window.theme.warning,
+							window.theme.danger
+						],
+						borderWidth: 5
+					}]
+				},
+				options: {
+					responsive: !window.MSInputMethodContext,
+					maintainAspectRatio: false,
+					legend: {
+						display: false
+					},
+					cutoutPercentage: 75
+				}
+			});
+		});
+	</script>
+	<script>
+		document.addEventListener("DOMContentLoaded", function() {
+			// Bar chart
+			new Chart(document.getElementById("chartjs-dashboard-bar"), {
+				type: "bar",
+				data: {
+					labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+					datasets: [{
+						label: "This year",
+						backgroundColor: window.theme.primary,
+						borderColor: window.theme.primary,
+						hoverBackgroundColor: window.theme.primary,
+						hoverBorderColor: window.theme.primary,
+						data: [54, 67, 41, 55, 62, 45, 55, 73, 60, 76, 48, 79],
+						barPercentage: .75,
+						categoryPercentage: .5
+					}]
+				},
+				options: {
+					maintainAspectRatio: false,
+					legend: {
+						display: false
+					},
+					scales: {
+						yAxes: [{
+							gridLines: {
+								display: false
+							},
+							stacked: false,
+							ticks: {
+								stepSize: 20
+							}
+						}],
+						xAxes: [{
+							stacked: false,
+							gridLines: {
+								color: "transparent"
+							}
+						}]
+					}
+				}
+			});
+		});
+	</script>
+	<script>
+		document.addEventListener("DOMContentLoaded", function() {
+			var markers = [{
+					coords: [31.230391, 121.473701],
+					name: "Shanghai"
+				},
+				{
+					coords: [28.704060, 77.102493],
+					name: "Delhi"
+				},
+				{
+					coords: [6.524379, 3.379206],
+					name: "Lagos"
+				},
+				{
+					coords: [35.689487, 139.691711],
+					name: "Tokyo"
+				},
+				{
+					coords: [23.129110, 113.264381],
+					name: "Guangzhou"
+				},
+				{
+					coords: [40.7127837, -74.0059413],
+					name: "New York"
+				},
+				{
+					coords: [34.052235, -118.243683],
+					name: "Los Angeles"
+				},
+				{
+					coords: [41.878113, -87.629799],
+					name: "Chicago"
+				},
+				{
+					coords: [51.507351, -0.127758],
+					name: "London"
+				},
+				{
+					coords: [40.416775, -3.703790],
+					name: "Madrid "
+				}
+			];
+			var map = new jsVectorMap({
+				map: "world",
+				selector: "#world_map",
+				zoomButtons: true,
+				markers: markers,
+				markerStyle: {
+					initial: {
+						r: 9,
+						strokeWidth: 7,
+						stokeOpacity: .4,
+						fill: window.theme.primary
+					},
+					hover: {
+						fill: window.theme.primary,
+						stroke: window.theme.primary
+					}
+				},
+				zoomOnScroll: false
+			});
+			window.addEventListener("resize", () => {
+				map.updateSize();
+			});
+		});
+	</script>
+	<script>
+		document.addEventListener("DOMContentLoaded", function() {
+			var date = new Date(Date.now() - 5 * 24 * 60 * 60 * 1000);
+			var defaultDate = date.getUTCFullYear() + "-" + (date.getUTCMonth() + 1) + "-" + date.getUTCDate();
+			document.getElementById("datetimepicker-dashboard").flatpickr({
+				inline: true,
+				prevArrow: "<span title=\"Previous month\">&laquo;</span>",
+				nextArrow: "<span title=\"Next month\">&raquo;</span>",
+				defaultDate: defaultDate
+			});
+		});
+	</script>
+
+</body>
+
+</html>

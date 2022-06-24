@@ -1,0 +1,132 @@
+body
+{
+    margin: 0px;
+}
+#sideMen
+{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border: 0;
+    width: 75%;
+    border-top: 1px solid #2b77bc;
+}
+
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    left: 0;
+    background-color: #e2e2e2;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    box-shadow: 0 6px 8px 0px rgba(0, 0, 0, 0.79);
+}
+
+#dataTable table thead{
+    text-align: left;
+    padding: 28px;
+    background: #1E84BF;
+    ;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    color: #ffffff; 
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #2e83c1;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    background: #949494;
+    color: aliceblue;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.active{
+    background: #2b78bc;
+    color: aliceblue!important;
+    border-radius: 5px;
+    margin: 5px;
+    box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 0.79);
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 0px;
+    margin-left: 250px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+button.dt-button, div.dt-button, a.dt-button {    
+    padding: 0.2em 1em!important;
+}
+
+div.dt-buttons {
+    position: relative;
+    float: right!important;
+    margin-left: 1%!important;
+}
+.select
+{
+    background: #008ec7;
+    color: whitesmoke!important;
+}
+
+.row 
+{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.aligner {
+    text-align:right;
+}
+.line {
+    fill: none;
+    stroke-width: 1px;
+}
+
+.axis path {
+    stroke: black;
+    stroke-width: 1px;
+    fill: none;
+    shape-rendering: crispEdges;
+}
+
+.tick line {
+    stroke: black;
+    stroke-width: 1px;
+}
+
+.grid line {
+  stroke: lightgrey;
+  stroke-opacity: 0.7;
+  shape-rendering: crispEdges;
+}
+
+.grid path {
+  stroke-width: 0;
+}
+
